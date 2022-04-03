@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.payment_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bul"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bul"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Payment_app">
+        <activity
+            android:name=".recharge_pay"
+            android:exported="false" />
+        <activity
+            android:name=".mobile_rechargetransc"
+            android:exported="false" />
+        <activity
+            android:name=".plans"
+            android:exported="false" />
+        <activity
+            android:name=".Gas"
+            android:exported="false" />
+        <activity
+            android:name=".manage_reminders"
+            android:exported="false" />
+        <activity
+            android:name=".automatic_payments"
+            android:exported="false" />
+        <activity
+            android:name=".broadbandbill_payment"
+            android:exported="false" />
+        <activity
+            android:name=".broadband_bill"
+            android:exported="false" />
+        <activity
+            android:name=".landline"
+            android:exported="false" />
+        <activity
+            android:name=".broadband"
+            android:exported="false" />
+        <activity
+            android:name=".apartment_transaction"
+            android:exported="false" />
+        <activity
+            android:name=".apartment_payment"
+            android:exported="false" />
+        <activity
+            android:name=".electricity"
+            android:exported="false" />
+        <activity
+            android:name=".credit_card"
+            android:exported="false" />
+        <activity
+            android:name=".recharge_transaction"
+            android:exported="false" />
+        <activity
+            android:name=".recharge_payment"
+            android:exported="false" />
+        <activity
+            android:name=".wallet"
+            android:exported="false" />
+        <activity
+            android:name=".contact_list"
+            android:exported="false" />
+        <activity
+            android:name=".recharge"
+            android:exported="false" />
+        <activity
+            android:name=".transactions"
+            android:exported="false" />
+        <activity
+            android:name=".recieve"
+            android:exported="false" />
+        <activity
+            android:name=".balance_history"
+            android:exported="false" />
+        <activity
+            android:name=".send_money"
+            android:exported="false" />
+        <activity
+            android:name=".chat"
+            android:exported="false" />
+        <activity
+            android:name=".upi_transfer"
+            android:exported="false" />
+        <activity
+            android:name=".recieve_confirm"
+            android:exported="false" />
+        <activity
+            android:name=".send_confirm"
+            android:exported="false" />
+        <activity
+            android:name=".send"
+            android:exported="false" />
+        <activity
+            android:name=".contacts"
+            android:exported="false" />
+        <activity
+            android:name=".scan"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".reset"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_pass"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
